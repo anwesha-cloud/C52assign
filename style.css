@@ -1,0 +1,49 @@
+h1{
+    display: flex;
+    background-color: salmon;
+    color:rebeccapurple;
+    text-align:center;
+    justify-content: space-evenly;
+}
+h2{
+    display: flex;
+    background-color: yellow;
+    color:red;
+}
+.test {
+    display: flex;
+    justify-content: space-between;
+    background-color: springgreen;
+    padding:15px;
+    font-size:20px;
+    font-family: cursive;
+    font-weight: 400;
+    color: #000000
+}
+.grid{
+    display: flex;
+    justify-content: space-between;
+    background-color:royalblue;
+    padding:15px;
+    font-size:20px;
+    font-family: fantasy;
+    font-weight: 400;
+    color: #000000;
+}
+a:link{
+    color: greenyellow;
+    text-decoration: none;
+}
+a:visited{
+    color: greenyellow;
+    text-decoration: none;
+}
+.fox:hover img{
+transform: scale(1.2);
+}
+.fox:hover p{
+    opacity:0;
+}
+.fox p{
+    position: absolute;
+}
